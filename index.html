@@ -13,6 +13,7 @@
 
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="icon" href="favicon.ico" type="image/gif" sizes="16x16" />
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css" />
@@ -20,8 +21,9 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital@0;1&display=swap"
       rel="stylesheet"
     />
 
@@ -43,10 +45,8 @@
               </a>
 
               <a href="tel:+919459453936">
-                <p>
-                  <ion-icon class="hicons" name="call-outline"></ion-icon>
-                  +91-945-945-3936
-                </p>
+                <ion-icon class="hicons" name="call-outline"></ion-icon>
+                +91-945-945-3936
               </a>
               <!-- <a href="maito:doctor@niraamayaayrveda.com">
                 <p>
@@ -73,10 +73,105 @@
           </div>
         </div>
       </nav>
-      <div class="home"></div>
-      <div class="niraamaya"></div>
-      <div class="doctors"></div>
-      <div class="contact"></div>
+
+      <!-- Home Page -->
+      <div class="home">
+        <div class="container">
+          <img class="homeimg" src="img/family.jpg" alt="" />
+          <div class="homehead">
+            <h1 class="brown">Give your loving family an</h1>
+            <h1 class="orange">Ayurvedic protection</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Niraamaya -->
+      <div class="niraamaya">
+        <div class="container hundredpxpad">
+          <div class="text-content">
+            <h2 class="brown">Why Niraamaya?</h2>
+            <p>
+              In the times we live in, most of the illness is caused by the bad
+              lifestyle. Of course, medicines will give relief from the illness
+              but the real solution would be correcting the flaws in the
+              lifestyle.
+            </p>
+            <p>
+              At <strong> Niraamaya Ayurveda</strong>, we believe in treating
+              the patients by finding the root cause of the illness rather than
+              treating the symptoms with the help of medicines. This approach of
+              treatment will help the patient to recover gradually from the
+              illness and most importantly, it improves the overall health of
+              the individual.
+            </p>
+            <img src="img/ayurveda.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Doctors -->
+      <div class="doctors">
+        <div class="container">
+          <div class="doc-cont hundredpxpad">
+            <div class="doc-pic">
+              <img src="img/nalini.jpg" alt="" />
+            </div>
+            <h2 class="brown">Dr. Nalini Marath</h2>
+            <p>
+              Graduated in 2009 from Govt. Ayurveda College, Bangalore, Dr.
+              Nalini Marath has worked in various Ayurvedic Hospitals.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Online Consultation -->
+      <div class="online">
+        <div class="container hundredpxpad">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            alias porro architecto vero quisquam praesentium, soluta numquam
+            suscipit distinctio explicabo quas. Vel tempore obcaecati sed
+            pariatur optio iusto expedita accusamus!
+          </p>
+        </div>
+      </div>
+
+      <!-- Conatct -->
+      <div class="contact">
+        <div class="container">
+          <div class="cont-cont">
+            <div>
+              <h3>Niraamaya Ayurveda</h3>
+              <p>
+                No. 18, 10th Cross, Akshayanagar, Block II, <br />
+                Aneppa Circle, TC Palya Main Road, <br />
+                Ramamurthynagar, Bengaluru - 560016 <br />
+                Ph: 945-945-3936 <br />
+                Email: doctor@niraamayaayurveda.com
+              </p>
+            </div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright -->
+      <div class="copyright">
+        <div class="container">
+          <p class="copyright-text">
+            <script>
+              (function () {
+                document.querySelector(
+                  ".copyright-text"
+                ).textContent = `© Niraamaya Ayurveda ${new Date().getFullYear()}`;
+              })();
+              // getYear();
+            </script>
+          </p>
+        </div>
+      </div>
     </div>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
@@ -99,3 +194,5 @@
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>
+
+<!-- http://preview.themeforest.net/item/medicenter-responsive-medical-wordpress-theme/full_screen_preview/4718613?_ga=2.45013926.327656733.1619076670-628704095.1579580490 -->
