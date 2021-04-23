@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-mobile.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -49,10 +49,8 @@
                 +91-945-945-3936
               </a>
               <!-- <a href="maito:doctor@niraamayaayrveda.com">
-                <p>
-                  <ion-icon class="hicons" name="mail-outline"></ion-icon>
-                  Mail Us
-                </p>
+                <ion-icon class="hicons" name="mail-outline"></ion-icon>
+                Mail Us
               </a> -->
             </div>
           </div>
@@ -116,11 +114,24 @@
             <div class="doc-pic">
               <img src="img/nalini.jpg" alt="" />
             </div>
-            <h2 class="brown">Dr. Nalini Marath</h2>
-            <p>
-              Graduated in 2009 from Govt. Ayurveda College, Bangalore, Dr.
-              Nalini Marath has worked in various Ayurvedic Hospitals.
-            </p>
+            <div class="doc-text">
+              <h2 class="brown">Dr. Nalini Marath</h2>
+              <p>
+                Graduated from Government Ayurvedic Medical College - Bangalore
+                in 2011,
+                <span class="bold"> Dr.&nbsp;Nalini&nbsp;Marath </span> has
+                worked her way up in various ayurvedic hospitals. Over a
+                decade-long practice, she has brought relief to thousands of
+                patients and thousands of smiles to count on. The key to the
+                successful treatment of her patients lies in the method she
+                chose - <span class="bold"> Classical Ayurveda</span>. Over the
+                decade, she has mastered the art of balancing the
+                <span class="italic"> Doshas </span>of the human body by
+                correcting the lifestyle and administering the right medicines,
+                which gave her patients not just relief but also improved the
+                overall health in long run.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -131,12 +142,12 @@
           <div class="onlinetext">
             <h2 class="brown">Online Consultation</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              alias porro architecto vero quisquam praesentium, soluta numquam
-              suscipit distinctio explicabo quas. Vel tempore obcaecati sed
-              pariatur optio iusto expedita accusamus!
+              At times when the pandemic is widespread and you are restricted to
+              your house, Niraamaya Ayurveda provides online consultation with a
+              tele/video call. You can call us and fix an appointment to get a
+              consultation without having to leave your house.
             </p>
-            <a class="btn" href="#">Book Appointment</a>
+            <a class="btn" href="tel:+919459453936">Schedule a consultation</a>
           </div>
           <img src="img/onlinecons.svg" alt="" />
         </div>
@@ -145,14 +156,24 @@
       <!-- Conatct -->
       <div class="contact">
         <div class="container">
+          <div class="q-cont flexrow">
+            <a
+              class="sand1"
+              href="https://www.google.com/maps/place/Niraamaya+Ayurveda/@13.0205494,77.6838033,15z/data=!4m5!3m4!1s0x0:0x9ca3f712d147f090!8m2!3d13.0205494!4d77.6838033"
+              target="_blank"
+              ><div><p>Find Us On Maps</p></div></a
+            >
+            <a class="sand2" href="tel:+919459453936"
+              ><div><p>Call for Appointment</p></div></a
+            >
+            <a
+              class="sand3"
+              href="mailto:doctor@niraamayaayurveda.com"
+              target="_blank"
+              ><div><p>Send an Email</p></div></a
+            >
+          </div>
           <div class="cont-cont">
-            <div>
-              <h3>Quick Contact</h3>
-              <p>
-                Ph: 945-945-3936 <br />
-                Email: doctor@niraamayaayurveda.com
-              </p>
-            </div>
             <div>
               <h3>Niraamaya Ayurveda</h3>
               <p>
@@ -161,7 +182,12 @@
                 Ramamurthynagar, Bengaluru - 560016 <br />
               </p>
             </div>
-            <div></div>
+            <div>
+              <h3>Quick Contact</h3>
+              <p>Mobile: +91-945-945-3936</p>
+              <p>Email: doctor@niraamayaayurveda.com</p>
+            </div>
+            <div><h3>Niraamaya Ayurveda</h3></div>
           </div>
         </div>
       </div>
@@ -174,7 +200,7 @@
               (function () {
                 document.querySelector(
                   ".copyright-text"
-                ).textContent = `© Niraamaya Ayurveda ${new Date().getFullYear()}`;
+                ).textContent = `© ${new Date().getFullYear()} Niraamaya Ayurveda. All rights reserved.`;
               })();
               // getYear();
             </script>

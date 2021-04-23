@@ -1,0 +1,374 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  /* font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+    background: #ff0000;
+  }
+
+  body {
+    /* transition-delay: 0.3s; */
+  }
+
+  .wrapper {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .hundredpxpad {
+    padding: 20px;
+  }
+
+  h2 {
+    /* font-family: "Playfair Display", serif; */
+    /* font-style: italic; */
+    font-weight: 200;
+    font-size: 1.5em;
+  }
+
+  p {
+    font-weight: 200;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .bold {
+    font-weight: 400;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    /* width: 200px; */
+    background-color: #481513;
+    padding: 10px;
+    margin: 20px 0;
+    color: #fffaf0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transition: 0.2s ease-in-out;
+  }
+  .btn:hover {
+    margin-left: 10px;
+  }
+
+  nav {
+    width: 100%;
+    position: absolute;
+    display: block;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .header {
+    width: 100%;
+    height: auto;
+  }
+
+  /* UPPER HEADER */
+  .hicons {
+    font-size: 1.2em;
+    vertical-align: text-bottom;
+  }
+
+  .uheader {
+    width: 100%;
+    height: auto;
+    background-color: #fffaf0;
+  }
+
+  .uheader a {
+    display: block;
+    /* margin: 15px 20px 0 0; */
+    padding: 10px 0;
+    font-size: 0.9em;
+    color: #c4946b;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #c4946b;
+  }
+
+  /* LOWER HEADER */
+  .lheader {
+    width: 100%;
+    height: auto;
+    /* border-top: 1px solid #c4946b; */
+    /* border-bottom: 1px solid #c4946b; */
+    background-color: #ffffff;
+    box-shadow: 0px 3px 10px rgb(220, 220, 220);
+    transition: 0.2s ease-in-out;
+  }
+
+  .lheader:hover {
+    box-shadow: 0px 5px 10px rgb(230, 230, 230);
+  }
+
+  .lhead-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-cont {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .logo-cont img {
+    width: 60%;
+    padding: 10px 0;
+    margin: 0 auto;
+  }
+
+  .menus {
+    display: none;
+  }
+
+  .menus ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .menus ul li {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-top: 30px;
+    color: #c4946b;
+    transition: 0.2s ease-in-out;
+  }
+
+  .menus ul li:hover {
+    color: #481513;
+  }
+
+  /* homepage */
+  .home {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+
+  .homeimg {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 180px;
+    display: block;
+  }
+
+  .homehead {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 20px;
+    z-index: 10;
+  }
+
+  .homehead h1 {
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "Playfair Display", serif; */
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 0.5em;
+    font-weight: 400;
+    /* font-style: italic; */
+  }
+
+  .brown {
+    color: #481512;
+  }
+
+  .orange {
+    color: #f05a28;
+  }
+
+  /* NIRAAMAYA */
+
+  .niraamaya {
+    width: 100vw;
+    height: auto;
+    background-color: #fffaf0;
+    position: relative;
+    text-align: center;
+  }
+
+  .text-content {
+    /* width: 100%; */
+    height: auto;
+    padding: 20px;
+    border: 1px solid #c4946b;
+  }
+
+  .niraamaya h2 {
+    margin-bottom: 10px;
+  }
+
+  .niraamaya p {
+    margin-bottom: 20px;
+  }
+
+  .text-content img {
+    width: 60px;
+    /* padding: 10px 0 0; */
+  }
+
+  /* DOCTORS */
+  .doctors {
+    width: 100%;
+  }
+
+  .doc-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+  }
+  .doc-pic {
+    width: 25%;
+    height: auto;
+    display: block;
+    position: relative;
+  }
+
+  .doc-pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .doc-text {
+    width: 70%;
+    align-self: center;
+  }
+
+  /* Online */
+  .online {
+    width: 100%;
+    background-color: #fffaf0;
+  }
+
+  .onlinetext {
+    width: 50%;
+    align-self: center;
+    display: block;
+    /* float: left; */
+  }
+
+  .online img {
+    width: 30%;
+  }
+
+  /* Contact */
+  .contact {
+    width: 100%;
+    height: auto;
+    background-color: #481513;
+  }
+
+  .q-cont {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  .q-cont a {
+    width: 33.33%;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    color: #481513;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 200;
+    transition: 0.3s ease-in-out;
+  }
+
+  .sand1 {
+    background-color: #c4946b;
+  }
+
+  .sand2 {
+    background-color: #e2ba97;
+  }
+
+  .sand3 {
+    background-color: #fddcbf;
+  }
+
+  .cont-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cont-cont div {
+    width: 33%;
+    padding: 20px 0;
+  }
+
+  .cont-cont h3 {
+    font-family: "Open Sans", sans-serif;
+    color: #fffaf0;
+    font-weight: 200;
+    font-size: 1em;
+    color: #f05a28;
+    margin-bottom: 15px;
+  }
+
+  .cont-cont p {
+    font-size: 0.9em;
+    color: #fffaf0;
+  }
+
+  /* Copyright */
+  .copyright {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: #300b09;
+    font-size: 0.7em;
+    color: #f05a28;
+  }
+}
