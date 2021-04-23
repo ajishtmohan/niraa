@@ -313,6 +313,9 @@ nav {
 }
 
 .q-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   height: auto;
   margin-bottom: 25px;
