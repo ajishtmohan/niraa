@@ -379,3 +379,23 @@ nav {
   font-size: 0.7em;
   color: #f05a28;
 }
+
+/* opening */
+.opening {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  position: absolute;
+  display: block;
+  top: 0;
+  z-index: 15;
+}
+
+.openinglogo {
+  width: 15%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
