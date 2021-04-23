@@ -38,6 +38,7 @@ font-family: 'Playfair Display', serif; */
 
   .hundredpxpad {
     padding: 20px;
+    box-sizing: border-box;
   }
 
   h2 {
@@ -256,20 +257,21 @@ font-family: 'Playfair Display', serif; */
   /* DOCTORS */
   .doctors {
     width: 100%;
+    height: auto;
   }
 
   .doc-cont {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
     height: auto;
   }
   .doc-pic {
-    width: 25%;
+    width: 50%;
     height: auto;
     display: block;
     position: relative;
+    margin: 0 auto 30px;
   }
 
   .doc-pic img {
@@ -279,8 +281,9 @@ font-family: 'Playfair Display', serif; */
   }
 
   .doc-text {
-    width: 70%;
-    align-self: center;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   /* Online */
