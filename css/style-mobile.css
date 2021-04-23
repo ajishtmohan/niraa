@@ -189,6 +189,7 @@ font-family: 'Playfair Display', serif; */
 
   .homeimg {
     width: 100%;
+    position: relative;
     margin: 0 auto;
     padding-top: 180px;
     display: block;
