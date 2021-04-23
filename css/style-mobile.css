@@ -81,9 +81,6 @@ font-family: 'Playfair Display', serif; */
     font-size: 0.9em;
     transition: 0.2s ease-in-out;
   }
-  .btn:hover {
-    margin-left: 10px;
-  }
 
   nav {
     width: 100%;
@@ -152,7 +149,7 @@ font-family: 'Playfair Display', serif; */
   }
 
   .logo-cont img {
-    width: 60%;
+    width: 80%;
     padding: 10px 0;
     margin: 0 auto;
   }
@@ -293,14 +290,16 @@ font-family: 'Playfair Display', serif; */
   }
 
   .onlinetext {
-    width: 50%;
+    width: 100%;
     align-self: center;
     display: block;
-    /* float: left; */
+    text-align: center;
   }
 
   .online img {
-    width: 30%;
+    width: 60%;
+    float: left;
+    display: none;
   }
 
   /* Contact */
@@ -317,9 +316,11 @@ font-family: 'Playfair Display', serif; */
   }
 
   .q-cont a {
-    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     text-align: center;
-    padding: 15px;
+    padding: 15px 0;
     text-transform: uppercase;
     color: #481513;
     text-decoration: none;
@@ -342,13 +343,14 @@ font-family: 'Playfair Display', serif; */
 
   .cont-cont {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
   }
 
   .cont-cont div {
-    width: 33%;
+    width: 100%;
     padding: 20px 0;
+    text-align: center;
   }
 
   .cont-cont h3 {
@@ -373,5 +375,6 @@ font-family: 'Playfair Display', serif; */
     background-color: #300b09;
     font-size: 0.7em;
     color: #f05a28;
+    text-align: center;
   }
 }
