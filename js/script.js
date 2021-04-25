@@ -62,3 +62,29 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 };
+
+let width = window.innerWidth;
+(function topButtons() {
+  if (window.innerWidth <= 400) {
+    // document.querySelector(
+    //   ".address"
+    // ).innerHTML = `<ion-icon class="hicons" name="location-outline"></ion-icon>
+    // locate us`;
+    document.getElementById("topBtns").innerHTML = `
+    <a
+                class="address"
+                href="https://www.google.com/maps/place/Niraamaya+Ayurveda/@13.0205494,77.6838033,15z/data=!4m5!3m4!1s0x0:0x9ca3f712d147f090!8m2!3d13.0205494!4d77.6838033"
+                target="_blank"
+              >
+                <ion-icon class="hicons" name="location-outline"></ion-icon>
+                Locate Us
+              </a>
+
+              <a class="phone" href="tel:+919459453936">
+                <ion-icon class="hicons" name="call-outline"></ion-icon>
+                Call Us
+              </a>
+    `;
+    document.getElementById("topBtns").style.textTransform = "uppercase";
+  }
+})();
