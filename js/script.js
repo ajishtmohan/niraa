@@ -65,7 +65,7 @@ window.onscroll = function () {
 
 let width = window.innerWidth;
 (function topButtons() {
-  if (window.innerWidth <= 400) {
+  if (window.innerWidth <= 480) {
     // document.querySelector(
     //   ".address"
     // ).innerHTML = `<ion-icon class="hicons" name="location-outline"></ion-icon>
@@ -86,5 +86,9 @@ let width = window.innerWidth;
               </a>
     `;
     document.getElementById("topBtns").style.textTransform = "uppercase";
+    document.querySelector(".homehead").innerHTML = `
+    <h1 class="brown">Give your <br> loving family an</h1>
+    <h1 class="orange">Ayurvedic <br> Protection</h1>
+    `;
   }
 })();
