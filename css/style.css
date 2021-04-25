@@ -1168,7 +1168,7 @@
   .text-content {
     /* width: 100%; */
     height: auto;
-    padding: 50px 120px;
+    padding: 50px 50px;
     border: 1px solid #c4946b;
   }
 
